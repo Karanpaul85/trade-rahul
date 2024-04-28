@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //btn click
   const links = document.querySelectorAll("nav ul li a");
-  const formLink = document.querySelectorAll(".gotoform");
+  const formLink = document.querySelectorAll(".services ul li .headerPhone");
   const menuList = document.querySelector("nav");
 
   // Add event listener to all links

@@ -81,6 +81,8 @@ header.darkHeader {
   font-size: 16px;
   transition: var(--transition);
   display: inline-block;
+  position: relative;
+  z-index: 9;
 }
 .headerPhone:hover {
   background: var(--hoverGradient);
